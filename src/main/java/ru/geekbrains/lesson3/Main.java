@@ -1,3 +1,5 @@
+package ru.geekbrains.lesson3;
+
 import ru.geekbrains.lesson3.RefuelingStation;
 import ru.geekbrains.lesson3.SportCar;
 import ru.geekbrains.lesson3.carWash.AutomaticWashingStation;
