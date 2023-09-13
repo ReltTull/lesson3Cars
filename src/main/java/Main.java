@@ -1,5 +1,6 @@
 import ru.geekbrains.lesson3.RefuelingStation;
 import ru.geekbrains.lesson3.SportCar;
+import ru.geekbrains.lesson3.carWash.AutomaticWashingStation;
 
 import java.awt.*;
 
@@ -9,5 +10,7 @@ public class Main {
         ferrari.movement();
         ferrari.setRefuelingStation(new RefuelingStation());
         ferrari.fuel();
+        ferrari.setWashingStation(new AutomaticWashingStation(5, true));
+        ferrari.wash();
     }
 }
